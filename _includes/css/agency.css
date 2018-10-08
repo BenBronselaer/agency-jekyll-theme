@@ -289,7 +289,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    color: #{{ site.data.template.color.secondary-dark }};
+    font-color: #000;
 }
 
 header .intro-text .intro-heading {
@@ -299,7 +299,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color: #{{ site.data.template.color.secondary-dark }};
+    font-color: #000;
 }
 
 @media(min-width:768px) {
@@ -314,6 +314,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        font-color: #000;
     }
 
     header .intro-text .intro-heading {
@@ -323,6 +324,7 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        font-color: #000;
     }
 }
 
